@@ -1,0 +1,78 @@
+body {
+    background-color: navy;
+}
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+    font-size: 72px;
+}
+
+h2 {
+    color: aliceblue;
+    margin: 50px 100px;
+    text-align: center;
+    font-size: 28px;
+}
+
+p {
+    color: lightblue;
+    font-size: 36px;
+    background-color: darkgreen;
+    border-radius: 50px;
+    padding: 50px 50px 50px 50px;
+}
+
+ul {
+    font-size: 36px;
+    color: darkorange;
+    background-color: darkgreen;
+    border-radius: 50px;
+    padding: 50px 50px 50px 50px;
+}
+
+ol {
+    font-size: 36px;
+    color: dodgerblue;
+    background-color: darkgreen;
+    border-radius: 50px;
+    padding: 50px 50px 50px 50px;
+}
+
+a {
+    font-size: 36px;
+    text-align: center;
+    color: paleturquoise;
+    background-color: darkgreen;
+    border-radius: 50px;
+    padding: 50px 50px 50px 50px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    background-color: darkolivegreen;
+    margin: 10px 10px 10px 10px;
+}
+
+.content-left {
+    background-color: forestgreen;
+    margin: 50px 50px 50px 50px;
+    padding: 70px;
+    border-radius:50px;
+}
+
+.content-right img {
+    border-radius:50px;
+    margin-top:50px;
+}
+
+.content-right {
+    justify-content:center;
+    padding: 70px;
+    background-color:  gray;
+    margin: 50px 50px 50px 50px;
+    border-radius:50px;
+}
+
+ 
