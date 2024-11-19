@@ -1,0 +1,31 @@
+table{
+    width:80%;
+    margin:0 auto;
+}
+
+th,td{
+    padding: 10px;
+    text-align: center;
+}
+
+thead{
+    background-color: black;
+    color: white;
+}
+
+tbody tr:nth-child(3n){
+    background-color: red; 
+}
+
+tbody tr:nth-child(3n+2){
+    background-color: blue; 
+}
+
+tbody tr:nth-child(3n+1){
+    background-color: white; 
+}
+
+caption{
+    color: white;
+    font-size: 112px
+}
