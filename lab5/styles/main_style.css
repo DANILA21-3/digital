@@ -1,0 +1,171 @@
+body {
+    background-color: navy;
+}
+
+.header {
+    display: flex;
+    justify-content: end;
+} 
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+    font-size: 72px;
+}
+
+h2 {
+    color: aliceblue;
+    margin: 50px 100px;
+    text-align: center;
+    font-size: 28px;
+}
+
+p {
+    color: lightblue;
+    font-size: 36px;
+    background-color: darkgreen;
+    border-radius: 50px;
+    padding: 50px 50px 50px 50px;
+}
+
+ul {
+    font-size: 36px;
+    color: darkorange;
+    background-color: darkgreen;
+    border-radius: 50px;
+    padding: 50px 50px 50px 50px;
+}
+
+ol {
+    font-size: 36px;
+    color: dodgerblue;
+    background-color: darkgreen;
+    border-radius: 50px;
+    padding: 50px 50px 50px 50px;
+}
+
+a {
+    font-size: 36px;
+    text-align: center;
+    color: paleturquoise;
+    background-color: darkgreen;
+    border-radius: 50px;
+    padding: 50px 50px 50px 50px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    background-color: darkolivegreen;
+    margin: 10px 10px 10px 10px;
+}
+
+.content-left {
+    background-color: forestgreen;
+    margin: 50px 50px 50px 50px;
+    padding: 70px;
+    border-radius:50px;
+}
+
+.content-right img {
+    border-radius:50px;
+    margin-top:50px;
+}
+
+.content-right {
+    justify-content:center;
+    padding: 70px;
+    background-color:  gray;
+    margin: 50px 50px 50px 50px;
+    border-radius:50px;
+}
+
+.container{
+    background-color:mediumaquamarine;
+    padding: 10px;
+}
+
+
+.block {
+    justify-content: center;
+     margin: 0 auto;
+    height: 200px;
+    width: 200px;
+    background-color: chocolate;
+}
+
+.container img{
+     display: block;
+     margin:0 auto;
+}
+.container-2{
+    background-color:mediumaquamarine;
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+    padding: 10px;
+ 
+  
+}
+
+.block-2{
+    height: 200px;
+    width: 200px;
+    background-color: chocolate;
+}
+
+.container-3{
+    background-color:mediumaquamarine;
+    border: 2px solid red;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    
+}
+
+.block-3{
+    height: 200px;
+    width: 200px;
+    background-color: chocolate; 
+}
+
+.container-4{
+    background-color: mediumaquamarine; 
+    position: relative;
+}
+
+.block-4_1{
+    border: 2px solid red;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    
+    
+}
+.block-4_2{
+    position: absolute;
+    border: 2px solid green;
+    height: 200px;
+    width: 200px;
+    
+    
+}
+.block-4_3{
+    position: absolute;
+    border: 2px solid blue;
+    height: 200px;
+    width: 200px;
+    
+    
+}
+.block-4_4{
+    position: absolute;
+    border: 2px solid black;
+    height: 700px;
+    width: 1000px;
+    
+    
+}
+
+ 

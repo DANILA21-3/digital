@@ -1,0 +1,52 @@
+table{
+    width:80%;
+    margin:30px auto;
+}
+
+th,td{
+    padding: 10px;
+    text-align: center;
+}
+
+thead{
+    background-color: black;
+    color: white;
+}
+
+tbody tr:nth-child(3n){
+    background-color: red; 
+}
+
+tbody tr:nth-child(3n+2){
+    background-color: blue; 
+}
+
+tbody tr:nth-child(3n+1){
+    background-color: white; 
+}
+
+caption{
+    color: white;
+    font-size: 112px
+}
+
+form{
+    
+    margin:0 auto;
+    background-color: black;
+    color:white;
+    width: 20%;
+    padding: 10px;
+    
+}
+
+button{
+    display:block;
+    margin: 0px auto;
+}
+
+label,input{
+    margin: 10px;
+    font-size: 20px;
+    
+}
