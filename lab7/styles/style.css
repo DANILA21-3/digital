@@ -1,0 +1,32 @@
+Navigator{
+ width: 100px;
+ position: absolute;
+ background-color:#edeff2;
+ left: 0;
+ height: 80px;
+
+}
+
+center_button{
+    display: flex;
+    justify-content: center;
+}
+
+.carousel{
+    margin:0 auto;
+    width: 50%;
+}
+
+.carousel-inner{
+    height:1000px;
+    margin: 10px 10px 10px 10px;
+    
+}
+
+img{
+    margin: 5px 5px;
+}
+a:hover img{
+    background-color: yellow;
+}
+
